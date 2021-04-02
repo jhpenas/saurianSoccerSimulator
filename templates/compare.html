@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Compare
+{% endblock %}
+
+{% block main %}
+    <h1>Select teams to compare</h1>
+    <br>
+    <form action="/compare" method="POST">
+        <input list="team1" name="team1">
+            <datalist id="team1">
+                {% for team in teams %}
+                    <option value="{{team['team_long_name']}}">
+                {% endfor %}
+            </datalist>
+        <b>X</b>
+        <input list="team2" name="team2">
+            <datalist id="team2">
+                {% for team in teams %}
+                    <option value="{{team['team_long_name']}}">
+                {% endfor %}
+            </datalist>
+        <br>
+        <br>
+
+        <button class="btn btn-primary" type="submit">Choose Teams</button>
+
+    </form>
+
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Simulate
+{% endblock %}
+
+{% block main %}
+    <h1>Select the League</h1>
+    <br>
+    <form action="/simulate" method="POST">
+        <input list="league" name="league">
+            <datalist id="league">
+                {% for l in leagues %}
+                    <option value="{{l['name']}}">
+                {% endfor %}
+            </datalist>
+
+
+
+
+        <br>
+        <br>
+
+        <button class="btn btn-primary" type="submit">Choose League</button>
+
+    </form>
+
+
+{% endblock %}

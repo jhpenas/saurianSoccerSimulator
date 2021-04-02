@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Statistics
+{% endblock %}
+
+{% block main %}
+    <h1>Select your team</h1>
+    <br>
+    <form action="/statistics" method="POST">
+        <input list="team" name="team">
+            <datalist id="team">
+                {% for team in teams %}
+                    <option value="{{team['team_long_name']}}">
+                {% endfor %}
+            </datalist>
+        <button class="btn btn-primary" type="submit">Choose</button>
+
+    </form>
+
+{% endblock %}

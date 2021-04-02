@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Simulate
+{% endblock %}
+
+{% block main %}
+    <h1>Select your teams</h1>
+     <form action="/simulated" method="POST">
+        <input list="team1" name="team1">
+            <datalist id="team1">
+                {% for t in teams %}
+                    <option value="{{t['team_long_name']}}">
+                {% endfor %}
+            </datalist>
+         <br>
+        <br>
+
+        <input list="team2" name="team2">
+            <datalist id="team2">
+                {% for t in teams %}
+                    <option value="{{t['team_long_name']}}">
+                {% endfor %}
+            </datalist>
+
+
+
+        <br>
+        <br>
+
+        <button class="btn btn-primary" type="submit">Choose Teams</button>
+
+    </form>
+
+
+{% endblock %}
