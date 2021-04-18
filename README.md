@@ -1,5 +1,5 @@
 <p align="center">
-  [<img src="/static/sss.png" >](http://saurian-soccer-simulator.herokuapp.com/)
+  <img src="/static/sss.png" >
 </p>
 
 # Saurian Soccer Simulator
