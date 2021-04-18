@@ -4,11 +4,25 @@
     Index
 {% endblock %}
 
-{% block main %}
-    <h1>Welcome To The Saurian Soccer Simulator</h1>
-    <br>
-    <img src="static/sss.png" alt="Saurian Soccer Simulator Logo" width="480" height="480">
-    <br><br>
-    <h2>A Place Where You Can Simulate Matches Between Soccer Teams And View Some Stats About Your Favourite Team</h2>
+{% block welcome %}
+<nav class="navbar navbar-md navbar-light " style="background-color: #e9d4b7">
 
+               <span style="color:#c46404" class="navbar-text">
+                   Welcome To The Saurian Soccer Simulator, where you can simulate matches between soccer teams and view some stats about them.
+
+               </span>
+
+</nav>
+{% endblock %}
+
+
+{% block main %}
+
+
+    <br>
+    <a href="/simulate"><img src="static/sss.png" alt="Saurian Soccer Simulator Logo" width="480" height="480"></a>
+
+    <br><br>
+
+    <a href="/simulate" class="btn btn-warning">Begin!</a>
 {% endblock %}
