@@ -7,6 +7,9 @@
 
 The final application is disponible [here](http://saurian-soccer-simulator.herokuapp.com/) and the demonstration video [here](https://www.youtube.com/)
 
-This website has a simulation tab, where you can simulate soccer matches results, based on real data and Machine Learning algorithms. It also has some tabs and dashboards where you can see soccer statistics.
+This project consists in a website, made in Flask, which has soccer simulation and statistics functions. The simulation is made using the open-source CatBoost regressor, a machine learning algorithm that uses gradient boosting on decision tree, only considering previous home and away results for the home and away teams, respectively. 
 
+The website also has statistics tabs, where you can view dashboards and make comparations between different teams.
+
+The database used for this application belongs to Hugo Mathien and it is disponible [here](https://www.kaggle.com/hugomathien/soccer).
 
