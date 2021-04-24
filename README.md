@@ -4,6 +4,7 @@
 
 # Saurian Soccer Simulator
 <sub>Developed as the Final Project for [CS50's Introduction to Computer Science](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home).</sub>
+<sub>[More Projects from me](https://github.com/jhpenas/portfolio).</sub>
 
 The final application is disponible [here](http://saurian-soccer-simulator.herokuapp.com/) and the demonstration video [here](https://www.youtube.com/)
 
