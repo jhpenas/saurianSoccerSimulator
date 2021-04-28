@@ -7,7 +7,7 @@
 
 <sub>[More Projects](https://github.com/jhpenas/portfolio).</sub>
 
-The final application is disponible [here](http://saurian-soccer-simulator.herokuapp.com/) and the demonstration video [here](https://www.youtube.com/)
+The final application is disponible [here](http://saurian-soccer-simulator.herokuapp.com/) and the demonstration video [here](https://www.youtube.com/watch?v=7lDYlgxDh6Y)
 
 This project consists in a website, made in Flask, which has soccer simulation and statistics functions. The simulation is made using the open-source CatBoost regressor, a machine learning algorithm that uses gradient boosting on decision tree, only considering previous home and away results for the home and away teams, respectively. 
 
