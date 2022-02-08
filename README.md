@@ -17,5 +17,5 @@ The website also has statistics tabs: statistics properly and comparation. In th
 
 In the comparation tab, you can make comparations between teams from the same country to see which one is the best, based on their previous results against each other.
 
-The database used for this application belongs to Hugo Mathien and it is disponible [here](https://www.kaggle.com/hugomathien/soccer).
+The database used for this application belongs to Hugo Mathien and it is available [here](https://www.kaggle.com/hugomathien/soccer).
 
