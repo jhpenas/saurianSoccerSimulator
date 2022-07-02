@@ -7,7 +7,7 @@
 
 <sub>[More Projects](https://github.com/jhpenas/portfolio).</sub>
 
-The final application was deployed on heroku and it is disponible [here](http://saurian-soccer-simulator.herokuapp.com/) and the demonstration video [here](https://www.youtube.com/watch?v=7lDYlgxDh6Y)
+The final application was deployed on heroku and it is available [here](http://saurian-soccer-simulator.herokuapp.com/) and the demonstration video [here](https://www.youtube.com/watch?v=7lDYlgxDh6Y)
 
 This project consists in a website, made in Flask, and use some different languages, such as HTML5, CSS and JavaScript, SQL, and Python, of course. The website has soccer as theme as well as dinosaurs, which brings us to its name. The logo was also made by me, using Adobe Illustrator and free vectors disbonible at Freepik. The simulation of matches is the core of the web application, However it isn't all, Saurian Soccer Simulator has also Statitisc and Comparation tabs.
 
