@@ -3,23 +3,24 @@
 </p>
 
 # Saurian Soccer Simulator
-<sub>Portuguese [here](https://github.com/jhpenas/portfolio).</sub>
+<sub>In English [here]([https://github.com/jhpenas/portfolio](https://github.com/jhpenas/saurianSoccerSimulator/blob/main/README.md)).</sub>
 
-<sub>Developed as the Final Project for Harvard [CS50's Introduction to Computer Science](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home).</sub>
+<sub>Desenvolvido como projeto final do curso de Harvard [CS50's Introduction to Computer Science](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home).</sub>
 
-<sub>[More Projects](https://github.com/jhpenas/portfolio).</sub>
+<sub>[Mais Projetos](https://github.com/jhpenas/portfolio).</sub>
 
-The final application was deployed on heroku and it is available [here](http://saurian-soccer-simulator.herokuapp.com/) and the demonstration video [here](https://www.youtube.com/watch?v=7lDYlgxDh6Y)
+O aplicativo final está hospedado no heroku e está disponível [aqui](http://saurian-soccer-simulator.herokuapp.com/) e o vídeo de apresentação [aqui](https://www.youtube.com/watch?v=7lDYlgxDh6Y)
 
 
-## Main Page
-This project consists in a website, made in Flask, and use some different languages, such as HTML5, CSS and JavaScript, SQL, and Python, of course. The website has soccer as theme as well as dinosaurs, which brings us to its name. The logo was also made by me, using Adobe Illustrator and free vectors disbonible at Freepik. The simulation of matches is the core of the web application, However it isn't all, Saurian Soccer Simulator has also Statitisc and Comparation tabs.
+## Página Principal
+Este projeto consiste em uma aplicação web, feita em Flask, utilizando algumas linguagens diferentes, como HTML5, CSS e JavaScript, SQL e Python. O site tem como tema o futebol e também os dinossauros, o que nos remete ao seu nome. O logotipo também foi feito por mim, usando Adobe Illustrator e vetores de livres utilização, disponíveis na Freepik. A simulação de partidas é o charme da aplicação, mas não é tudo: Saurian Soccer Simulator também possui abas de Estatísticas e Comparação entre times.
+
 <p align="center">
   <img src="/Screenshots/index.png" >
 </p>
 
-## Simulate
-In the simulation tab, Saurian Soccer Simulator can predict the result for a soccer match and the simulation is made using the open-source CatBoost regressor, a machine learning algorithm that uses gradient boosting on decision tree, only considering previous home and away results for the home and away teams, respectively, on the database. Another consideration is that the simulation is made as if the game took place immediately after the last one in the database.
+## Simular
+Na guia de simulação, o Saurian Soccer Simulator pode prever o resultado de uma partida de futebol, e a simulação é feita utilizando o regressor CatBoost, de código aberto, um algoritmo de aprendizado de máquina que usa gradient boosting na árvore de decisão, considerando apenas os resultados anteriores em casa e fora para o times. Outra consideração é que a simulação é feita como se o jogo ocorresse imediatamente após o último no banco de dados.
 
 <p align="center">
   <img src="/Screenshots/Simulation 2.png" >
@@ -28,10 +29,9 @@ In the simulation tab, Saurian Soccer Simulator can predict the result for a soc
   <img src="/Screenshots/Simulation 3.png" >
 </p>
 
-
-
 ## Statistics
-The website also has statistics tabs: statistics properly and comparation. In the statistics tab, you can choose a team and view its wins, losses and draws on all matches in  the database presented dynamic graphics, made with JavaScript, such as pie charts and a line chart showing team's performance throught seasons. 
+O site também possui abas de estatísticas: estatísticas propriamente ditas e comparação. Na aba de estatísticas, você pode escolher um time e visualizar suas vitórias, derrotas e empates em todas as partidas na base de dados apresentada em gráficos dinâmicos, feitos com JavaScript, como gráficos de pizza e um gráfico de linhas mostrando o desempenho do time ao longo das temporadas.
+
 <p align="center">
   <img src="/Screenshots/Statistics 1.png" >
 </p>
@@ -45,7 +45,7 @@ The website also has statistics tabs: statistics properly and comparation. In th
 
 
 ## Compare
-In the comparation tab, you can make comparations between teams from the same country to see which one is the best, based on their previous results against each other, as shown below.
+Na guia de comparação, você pode fazer comparações entre equipes do mesmo país para ver qual é a melhor, com base nos resultados anteriores entre si, conforme mostrado abaixo.
 <p align="center">
   <img src="/Screenshots/Compare 1.png" >
 </p>
@@ -56,6 +56,5 @@ In the comparation tab, you can make comparations between teams from the same co
   <img src="/Screenshots/Compare 3.png" >
 </p>
 
-
-The database used for this application belongs to Hugo Mathien and it is available [here](https://www.kaggle.com/hugomathien/soccer).
+A base de dados utilizada nesta aplicação pertence à Hugo Mathien e está disponível [aqui](https://www.kaggle.com/hugomathien/soccer).
 
