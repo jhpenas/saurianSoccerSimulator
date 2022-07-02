@@ -3,6 +3,8 @@
 </p>
 
 # Saurian Soccer Simulator
+<sub>Portuguese [here](https://github.com/jhpenas/portfolio).</sub>
+
 <sub>Developed as the Final Project for Harvard [CS50's Introduction to Computer Science](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home).</sub>
 
 <sub>[More Projects](https://github.com/jhpenas/portfolio).</sub>
