@@ -13,7 +13,7 @@ The final application was deployed on heroku and it is available [here](http://s
 
 
 ## Main Page
-This project consists in a website, made in Flask, and use some different languages, such as HTML5, CSS and JavaScript, SQL, and Python, of course. The website has soccer as theme as well as dinosaurs, which brings us to its name. The logo was also made by me, using Adobe Illustrator and free vectors available at Freepik. The simulation of matches is the core of the web application, However it isn't all, Saurian Soccer Simulator has also Statitics and Comparation tabs.
+This project consists in a website, made in Flask, and use some different languages, such as HTML5, CSS and JavaScript, SQL, and Python. The website has soccer as theme as well as dinosaurs, which brings us to its name. The logo was also made by me, using Adobe Illustrator and free vectors available at Freepik. The simulation of matches is the core of the web application, However it isn't all, Saurian Soccer Simulator has also Statitics and Comparation tabs.
 <p align="center">
   <img src="/Screenshots/index.png" >
 </p>
