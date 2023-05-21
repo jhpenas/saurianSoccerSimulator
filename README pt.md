@@ -3,7 +3,7 @@
 </p>
 
 # Saurian Soccer Simulator
-<sub>In English [here]([https://github.com/jhpenas/portfolio](https://github.com/jhpenas/saurianSoccerSimulator/blob/main/README.md)).</sub>
+<sub>In English [here](https://github.com/jhpenas/saurianSoccerSimulator).</sub>
 
 <sub>Desenvolvido como projeto final do curso de Harvard [CS50's Introduction to Computer Science](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home).</sub>
 
